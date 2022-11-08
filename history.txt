@@ -1,0 +1,116 @@
+   0 pwd
+   1 whoami
+   2 mkdir ivan
+   3 cd /opt/
+   4 cd
+   5 touch --help
+   6 ls -l
+   7 clear
+   8 mkdir /home/animals
+   9 cd /home/animals/
+  10 mkdir dogs cats fish /home/humans
+  11 tree /home
+  12 touch /home/animals/dogs/pluto.txt /home/animals/cats/garfield.txt /home/animals/fish/nemo.txt
+  13 tree /home
+  14 touch /tmp/adam
+  15 cp /tmp/adam /home/humans/
+  16 clear
+  17 history
+  18 touch --help
+  19 touch /tmp/evA
+  20 mv /tmp/evA /opt/eve
+  21 mv /opt/eve /home/humans/
+  22 ls /home/humans/
+  23 tree /home
+  24 clear
+  25 cd
+  26 ls
+  27 tree
+  28 tree /
+  29 clear
+  30 history
+  31 ls
+  32 vasya
+  33 ls
+  34 clear
+  35 ls -la /bin
+  36 clear
+  37 ls -la /home/
+  38 ls -la /home/animals/cats/
+  39 ls -l /bin/
+  40 clear
+  41 ls
+  42 vasya
+  43 mkdir 
+  44 date > /tmp/date.txt
+  45 ls
+  46 cat /tmp/date.txt 
+  47 vasya
+  48 pwd
+  49 cd
+  50 cat /tmp/date.txt 
+  51 df 
+  52 df -h
+  53 clear
+  54 cat /tmp/date.txt 
+  55 df -h
+  56 df -h >> /tmp/date.txt 
+  57 cat /tmp/date.txt 
+  58 date > /tmp/date.txt 
+  59 cat /tmp/date.txt 
+  60 clear
+  61 date
+  62 date > date.txt
+  63 ls
+  64 cat date.txt 
+  65 df -h
+  66 df -h >> date.txt 
+  67 cat date.txt 
+  68 clear 
+  69 echo "hello"
+  70 echo hello
+  71 echo 'hello'
+  72 echo "hello" >> date.txt 
+  73 cat date.txt 
+  74 cat /etc/group
+  75 cat /etc/group | wc 
+  76 wc --help
+  77 cat /etc/group | wc -l
+  78 cat /etc/group | tail
+  79 cat /etc/group | tail -2
+  80 cat /etc/group | tail 2
+  81 cat /etc/group | tail -5
+  82 cat /etc/group | head
+  83 cat /etc/group | head -2
+  84 cat /etc/group | head -2 | tail -1
+  85 df -h
+  86 df -h | head -1
+  87 df -h | head -1 >> /tmp/date.txt
+  88 clear
+  89 cat /etc/group
+  90 cat /etc/group | grep games
+  91 clear
+  92 grep --help
+  93 clear
+  94 df -h
+  95 df -h | head -1
+  96 df -h | grep 47
+  97 df -h | grep /
+  98 df -h | grep -w /
+  99 df -h | grep -o / 
+ 100 df -h | grep -o run 
+ 101 df -h | grep -o run  >> /tmp/date.txt 
+ 102 df -h 
+ 103 mkdir 1 | touch /root/1/file.txt
+ 104 ls
+ 105 df -h | awk '{print $5}'
+ 106 df -h | awk '{print $5}' | head -2 
+ 107 df -h | awk '{print $5}' | head -2 | tail -1
+ 108 df -h | awk '{print $5}' | grep 47
+ 109 df -h | awk '{print $5}' | grep 47 | sed 's/%/*/'
+ 110 df -h | awk '{print $5}' | grep 47 | sed 's/%//'
+ 111 df -h | grep -o 47
+ 112 df -h | grep -o /
+ 113 df -h | awk '{print $5}' | grep 47 | sed 's/%//' >> /tmp/date.txt 
+ 114 cat /tmp/date.txt 
+ 115 history > history.txt
